@@ -1,3 +1,12 @@
+/*
+*
+* (C) 2018 Fabian Salamanca
+* fabian@nuo.com.mx
+* Sample REST API implementation
+* using Go and MongoDB as backend
+*
+*/
+
 package main
 
 import (
