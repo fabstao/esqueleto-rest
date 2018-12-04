@@ -22,9 +22,9 @@ func getSession(dbhost string, dbname string, dbuser string, dbpasswd string) *m
 func main() {
 	// Instantiate a new router
 	dbhost := "localhost"
-	dbuser := "roko"
-	dbpasswd := "rokoroko"
-	dbname := "rokobookdb"
+	dbuser := "myuser"
+	dbpasswd := "passwd"
+	dbname := "mynosql"
 	r := httprouter.New()
 	uc := controllers.NewUserController(getSession(dbhost, dbname, dbuser, dbpasswd))
 	r.GET("/test", uc.TestAPI)

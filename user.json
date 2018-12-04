@@ -1,8 +1,0 @@
-{
-  user: "roko",
-  pwd: "rokoroko",
-  customData: { app: "RokoBooking" },
-  roles: [
-    { role: "readWrite", db: "rokobookdb" }
-  ]
-}
