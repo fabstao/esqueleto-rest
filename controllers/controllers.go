@@ -6,12 +6,11 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"gitlab.com/fabstao/rokobooking/models"
+	"gitlab.com/fabstao/esqueleto-rest/models"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )
 
-var artist = models.Artist{}
 
 // UserController :
 type UserController struct {

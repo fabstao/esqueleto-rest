@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"gitlab.com/fabstao/rokobooking/controllers"
+	"gitlab.com/fabstao/esqueleto-rest/controllers"
 	mgo "gopkg.in/mgo.v2"
 )
 
